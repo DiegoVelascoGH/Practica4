@@ -4,13 +4,13 @@ self.addEventListener('install', (event) => {
         //addAll es una promesa
         return cache.addAll(
             [
-                '/',
-                '/index.html',
-                '/js/app.js',
-                '/pages/suma.html',
-                '/pages/resta.html',
-                '/pages/division.html',
-                '/pages/multiplicacion.html',
+                './',
+                './index.html',
+                './js/app.js',
+                './pages/suma.html',
+                './pages/resta.html',
+                './pages/division.html',
+                './pages/multiplicacion.html',
                 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css',
                 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js'
             ]
