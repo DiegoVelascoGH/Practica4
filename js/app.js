@@ -1,5 +1,5 @@
 if(navigator.serviceWorker){
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register('./sw.js');
 
     // sumar = () => {
     //     caches.match('cache-v1').then((response)=>{
